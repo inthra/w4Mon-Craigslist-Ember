@@ -1,3 +1,7 @@
 <h1>{{category.name}} Information</h1>
 
 {{new-listing saveListing="saveListing" category=category}}
+
+{{#each category.listings as |listing|}}
+  {{listing-tile listing=listing}}
+{{/each}}
