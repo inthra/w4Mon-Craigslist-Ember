@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  sortBy: ['price:asc'],
+  sortBy: ['timeStamp:desc'],
   sortedListings: Ember.computed.sort('category.listings', 'sortBy'),
 
   actions: {

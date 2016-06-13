@@ -7,5 +7,6 @@ export default Model.extend({
   title: attr(),
   detail: attr(),
   price: attr(),
-  image: attr()
+  image: attr(),
+  timeStamp: attr()
 });
