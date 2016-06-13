@@ -14,3 +14,12 @@ img {
 .listing-tile h3 {
   font-size: 30pt;
 }
+
+.glyphicon-fire {
+  color: crimson;
+}
+
+a:hover {
+  text-decoration: none;
+  color: MediumTurquoise;
+}

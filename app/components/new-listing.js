@@ -6,7 +6,7 @@ export default Ember.Component.extend({
       var params = {
         title: this.get('title'),
         detail: this.get('detail'),
-        price: this.get('price'),
+        price: parseInt(this.get('price')),
         image: this.get('image'),
         category: this.get('category'),
       };
