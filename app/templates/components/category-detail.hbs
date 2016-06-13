@@ -2,6 +2,6 @@
 
 {{new-listing saveListing="saveListing" category=category}}
 
-{{#each category.listings as |listing|}}
+{{#each sortedListings as |listing|}}
   {{listing-tile listing=listing}}
 {{/each}}
