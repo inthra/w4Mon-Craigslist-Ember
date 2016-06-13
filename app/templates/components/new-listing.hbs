@@ -1,0 +1,46 @@
+<div class="new-post-box">
+  <h2>Add a New Listing:</h2>
+  <hr>
+  <form>
+    <div class="form-group">
+
+      <div class="row">
+        <div class="col-xs-6">
+          <label for="new-post-field">Title:</label>
+        </div>
+        <div class="col-xs-6">
+          {{input class="new-post-field" value=title id="title"}}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-6">
+          <label for="new-post-field">Details:</label>
+        </div>
+        <div class="col-xs-6">
+          {{textarea class="new-post-field" rows=6 value=detail id="detail"}}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-6">
+          <label for="new-post-field">Price:</label>
+        </div>
+        <div class="col-xs-6">
+          {{input class="new-post-field" value=price id="price"}}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-6">
+          <label for="new-post-field">Image URL:</label>
+        </div>
+        <div class="col-xs-6">
+          {{input class="new-post-field" value=image id="image"}}
+        </div>
+      </div>
+    </div>
+
+    <button {{action 'saveListing'}}>Save</button>    
+  </form>
+</div>
