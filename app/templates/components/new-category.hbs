@@ -1,0 +1,14 @@
+<form>
+  <h2>Add a Category</h2>
+  <div class="form-group">
+    <div class="row">
+      <div class="col-xs-6">
+        <label for="new-post-field">Category Title:</label>
+      </div>
+      <div class="col-xs-6">
+        {{input class="new-post-field" value=name id="name"}}
+      </div>
+    </div>
+  </div>
+  <button class="post-button" {{action 'saveCategory'}}>Save</button>
+</form>

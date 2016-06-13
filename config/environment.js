@@ -5,6 +5,12 @@ module.exports = function(environment) {
     modulePrefix: 'craigslist',
     environment: environment,
     baseURL: '/',
+    firebase: {
+      apiKey: "AIzaSyDdBjxchy5O9Zd5Xz3cT6byEdLh-Z1eDgY",
+      authDomain: "craigslist-ember-bed6b.firebaseapp.com",
+      databaseURL: "https://craigslist-ember-bed6b.firebaseio.com",
+      storageBucket: "craigslist-ember-bed6b.appspot.com",
+    },
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
